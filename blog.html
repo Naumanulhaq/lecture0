@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          @media only screen and (max-width:768px){
+            [class= 'leftcolumn']{
+              width: 400px;
+              margin-right: 50px;
+              margin-left: -60px;
+            }
+            [class= 'midcolumn']{
+              width: 400px;
+              margin-right: 50px;
+              margin-left: -60px;
+            }
+            [class= 'rightcolumn']{
+              width: 400px;
+              margin-right: 50px;
+              margin-left: -60px;
+            }
+          }
+
+          @media only screen and (max-width:1000px) and (min-width:767px) {
+            [class= 'leftcolumn']{
+              width: 250px;
+              margin-right: auto;
+              margin-left: auto;
+              /* padding-right: 50px; */
+            }
+            [class= 'midcolumn']{
+              width: 250px;
+              margin-right: auto;
+              margin-left: auto;
+            }
+            [class= 'rightcolumn']{
+              width: 500px;
+              margin-right: auto;
+              margin-left: auto;
+            }
+          }
+        </style>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-md">
+          <!-- <a class="navbar-brand" href="#">Portfolio</a> -->
+          <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
+              <li class="nav-item">
+                <a class="nav-link p-2" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2 active" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4 class="blog_header">Geospatial Blog</h4>
+          </div>
+
+          <div class="col-lg-12 col-md-12 col-sm-12 blogs">
+            <div class="blogrow">
+              <div class="leftcolumn">
+                <div class="card">
+                  <!-- <h5>Google Earth Engine</h5> -->
+                  <img class="fakeimg" src='G:\Harvard University\Web-Development with Python and JavaScript\project0\blog\GEE.jpg' style="height:200px;" alt="GEE">
+                  <p class="blog_desc">Google Earth Engine combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities and makes it available for scientists, researchers, and developers to detect changes, map trends, and quantify differences on the Earth's surface.</p>
+                </div>
+                <div class="card">
+                  <!-- <h5>ArcGIS</h5> -->
+                  <img class="fakeimg" src='G:\Harvard University\Web-Development with Python and JavaScript\project0\blog\ArcGIS.png' style="height:200px;" alt="ArcGIS">
+                  <p class="blog_desc">ArcGIS is a geographic information system for working with maps and geographic information maintained by the Environmental Systems Research Institute.</p>
+                </div>
+              </div>
+              <div class="midcolumn">
+                <div class="card">
+                  <!-- <h5>QGIS</h5> -->
+                  <img class="fakeimg" src='G:\Harvard University\Web-Development with Python and JavaScript\project0\blog\qgis.png' style="height:200px;" alt="QGIS">
+                  <p class="blog_desc">QGIS is a free and open-source cross-platform desktop geographic information system application that supports viewing, editing, and analysis of geospatial data.</p>
+                </div>
+                <div class="card">
+                  <!-- <h5>ArcGIS Pro</h5> -->
+                  <img class="fakeimg" src='G:\Harvard University\Web-Development with Python and JavaScript\project0\blog\arcgis_pro.jpg' style="height:200px;" alt="ArcGIS_Pro">
+                  <p class="blog_desc">ArcGIS Pro is the latest professional desktop GIS application from Esri. With ArcGIS Pro, you can explore, visualize, and analyze data; create 2D maps and 3D scenes; and share your work to your ArcGIS Online or ArcGIS Enterprise portal.</p>
+                </div>
+              </div>
+              <div class="rightcolumn">
+                <div class="card">
+                  <!-- <h5>Google Colab</h5> -->
+                  <img class="fakeimg" src='G:\Harvard University\Web-Development with Python and JavaScript\project0\blog\google_colab.jpg' style="height:200px;" alt="Colab">
+                  <p class="blog_desc">Google Colab is a free cloud service and now it supports free GPU! You can; improve your Python programming language coding skills. develop deep learning applications using popular libraries such as Keras, TensorFlow, PyTorch, and OpenCV.</p>
+                </div>
+                <div class="card">
+                  <!-- <h5>Python</h5> -->
+                  <img class="fakeimg" src='G:\Harvard University\Web-Development with Python and JavaScript\project0\blog\python.jpg' style="height:200px;" alt="Python">
+                  <p class="blog_desc">Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
