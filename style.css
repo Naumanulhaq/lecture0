@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9; }
+
+/*--- navigation bar ---*/
+.navbar {
+  background: #02152B; }
+
+.nav-link {
+  color: darkgrey;
+  cursor: pointer; }
+
+.nav-link {
+  margin-right: 1em !important; }
+
+.nav-link:hover {
+  color: white; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.active {
+  text-decoration: underline;
+  color: white; }
+
+/*--- text ---*/
+.image {
+  height: 35%; }
+
+.col-md-4 image {
+  height: 100%; }
+
+.hello {
+  color: #02152B;
+  margin-bottom: 0%;
+  margin-top: 3%; }
+
+.name {
+  color: #02152B;
+  margin-bottom: 6%; }
+
+.summary {
+  color: #02152B;
+  line-height: 140%; }
+
+.col-sm-12 {
+  margin-bottom: -90%; }
+
+.text {
+  text-align: center; }
+
+.contact {
+  text-align: center;
+  margin-top: 20px; }
+
+.c-p {
+  font-size: 15px; }
+
+/*--- SCSS Inheritance ---*/
+.c-name, .c-email, .c-message {
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #D3D3D3;
+  padding: 8px; }
+
+.c-name, .c-email {
+  height: 30px;
+  width: 500px; }
+
+.c-message {
+  height: 200px;
+  width: 500px; }
+
+.btn {
+  border: 1px solid #C9CBCE;
+  width: 15%; }
+
+.btn:hover {
+  background-color: #02152B;
+  color: white; }
+
+/*--- alert component of bootstrap ---*/
+.alert {
+  display: none;
+  font-size: 16px;
+  margin-top: 1%; }
+
+.table, th, td {
+  border: 1px solid black;
+  margin-top: 2.5%; }
+
+/*--- SCSS nesting ---*/
+.nested ol {
+  color: black; }
+.nested ul {
+  color: #696969; }
+
+.blog_header {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  background: white;
+  padding: 30px; }
+
+.blogrow {
+  margin-top: 110px;
+  padding-left: 90px; }
+
+.leftcolumn, .midcolumn, .rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 20px; }
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px; }
+
+.fakeimg {
+  background: lightgrey;
+  margin-bottom: 2px; }
+
+.blog_desc {
+  font-size: 13px; }
+
+.card:hover {
+  cursor: pointer;
+  border-color: #02152B;
+  border-width: 1px; }
+
+/*# sourceMappingURL=style.css.map */
