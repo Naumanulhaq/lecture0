@@ -61,67 +61,6 @@ body {
 .text {
   text-align: center;
 }
-// ############## CONTACT.HTML ##############
-.contact {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.c-p {
-  font-size: 15px;
-}
-
-/*--- SCSS Inheritance ---*/
-%message{
-  margin-bottom: 15px;
-  font-size: 16px;
-  border: 1px solid #D3D3D3;
-  padding: 8px;
-}
-.c-name, .c-email {
-  @extend %message;
-  height: 30px;
-  width: 500px;
-}
-
-.c-message {
-  @extend %message;
-  height: 200px;
-  width: 500px;
-}
-
-.btn {
-  border: 1px solid #C9CBCE;
-  width: 15%;
-}
-.btn:hover {
-  background-color: #02152B ;
-  color: white;
-}
-
-/*--- alert component of bootstrap ---*/
-.alert{
-    display: none;
-    font-size: 16px;
-    margin-top: 1%;
-}
-
-// ############## PROJECTS.html ##############
-
-.table, th, td{
-  border: 1px solid black;
-  margin-top: 2.5%;
-}
-
-/*--- SCSS nesting ---*/
-.nested{
-  ol{
-    color: black;
-  }
-  ul{
-    color: #696969;
-  }
-}
 
 // ############## BLOG.html ##############
 .blog_header{
@@ -173,4 +112,74 @@ body {
   cursor: pointer;
   border-color: #02152B;
   border-width: 1px;
+}
+
+// ############## PROJECTS.html ##############
+thead{
+  background-color: darkgrey;
+}
+
+.table, th, td{
+  border: 1px solid white;
+  border-right: none;
+  border-left: none;
+  margin-top: 2.5%;
+  .GEE {
+    background-color: lightgrey;
+  }
+}
+
+/*--- SCSS nesting ---*/
+.nested{
+  ol{
+    color: black;
+  }
+  ul{
+    color: #696969;
+  }
+}
+
+// ############## CONTACT.HTML ##############
+.contact {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.c-p {
+  font-size: 15px;
+}
+
+.btn {
+  border: 1px solid #C9CBCE;
+  width: 15%;
+}
+
+.btn:hover {
+  background-color: #02152B ;
+  color: white;
+}
+/*--- SCSS Inheritance ---*/
+%message{
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #D3D3D3;
+  padding: 8px;
+}
+.c-name, .c-email {
+  @extend %message;
+  height: 30px;
+  width: 500px;
+}
+
+.c-message {
+  @extend %message;
+  height: 200px;
+  width: 500px;
+}
+
+/*--- alert component of bootstrap ---*/
+.alert{
+    display: none;
+    font-size: 16px;
+    margin-top: 1%;
 }
