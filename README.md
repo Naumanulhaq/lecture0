@@ -75,4 +75,6 @@ Contact page has 3 boxes to take an input from the user:
 
 and a **Submit** button. Right now there is no connection with the server so the submit button will only make a pop up to appear on the screen with a message (Success! message sent successfully.) that will then fade away after 3 seconds with the help of a JavaScript library called  *JQuery*.
 
-[![IMAGE ALT TEXT HERE](thumbnail/thumbnail.jpg)](https://youtu.be/UspV1OcO8to)
+##Youtube:
+Project0 quick video of 5 min:
+[![IMAGE ALT TEXT HERE](lecture0/thumbnail/thumbnail)](https://youtu.be/UspV1OcO8to)
