@@ -33,15 +33,15 @@ Project is created with
 
 This portfolio has 4 html pages and a linked style.css.
 
-  - [index.html](#home-page)
-  - [blog.html](#blog)
-  - [projects.html](#projects)
-  - [contact.html](#contact)
+  - [Home (index.html)](#home-page)
+  - [Blog (blog.html)](#blog)
+  - [Projects (projects.html)](#projects)
+  - [Contact (contact.html)](#contact)
   - style.css
 
 All these .html pages are linked through hyperlinks.
 
-# Home page:
+## Home page:
 Index.html is the main front page of this portfolio and it comprises of an image, text, hyperlinks and navigation tab.
 
 #### Description:
@@ -53,7 +53,7 @@ Index.html is the main front page of this portfolio and it comprises of an image
 - To make the image responsive with respect to screen sizes I have defined a class named img-fluid.
 - Inside text there are two hyperlinks; One is inside the text to navigate to another webpage (https://www.esri.com/en-us/what-is-gis/overview) that has information about the GIS. Just in case if someone doesn’t know what that term means and the other one navigates to the **projects** section inside my portfolio.
 
-# Blog
+## Blog
 
 Blog page contains the @media query, bootstrap 4 container and images.
 
@@ -61,11 +61,11 @@ Blog page contains the @media query, bootstrap 4 container and images.
 
 Blog page has the same navigation bar and a container of bootstrap. The difference here is the *@media query*, which is used to improve the visualization (blog page contains multiple images and text associates with them) on small screen size devices on top of bootstrap 4. *@media query* is applied on two diferent screen sizes, that is, for small screen size```(max-width:768px)```and medium screen size ```(max-width:1000px) and (min-width:767px)```. In each *@media query*, every class of the blog with their respective images, their width's are kept fixed with the aligning property of *margin-right* and *margin-left*.
 
-# Projects
+## Projects
 
 Project page is the simplest one, and has a table of 3 rows and 2 columns, that has few sample projects with respect to their tools. The headers of each column are *Tools* and *Projects*. Second column (*Projects*) has number of ordered list that further has several list items and then few unordered list items; and the same structure goes for all the rows.
 
-# Contact
+## Contact
 
 Contact page has 3 boxes to take an input from the user:
 
@@ -74,3 +74,5 @@ Contact page has 3 boxes to take an input from the user:
 - Message (textarea tag)
 
 and a **Submit** button. Right now there is no connection with the server so the submit button will only make a pop up to appear on the screen with a message (Success! message sent successfully.) that will then fade away after 3 seconds with the help of a JavaScript library called  *JQuery*.
+
+[![IMAGE ALT TEXT HERE](thumbnail/thumbnail.jpg)](https://youtu.be/UspV1OcO8to)
