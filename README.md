@@ -79,4 +79,4 @@ and a **Submit** button. Right now there is no connection with the server so the
 
 Project0 quick video of 5 min:
 
-[![IMAGE ALT TEXT HERE](lecture0/thumbnail/thumbnail)](https://youtu.be/UspV1OcO8to)
+[![Project0](https://img.youtube.com/vi/UspV1OcO8to/0.jpg)](https://youtu.be/UspV1OcO8to)
